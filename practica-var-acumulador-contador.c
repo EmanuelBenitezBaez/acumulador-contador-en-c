@@ -28,7 +28,7 @@ printf("\nIngrese la cuarta nota:");
 scanf("%f",&nota);
 acumulador=acumulador+nota;
 cantNotasIngresadas++;
-promedio= acumulador / 4;
+promedio= acumulador / cantNotasIngresadas;
 printf("\nLa cantidad de notas ingresadas fueron: %d",cantNotasIngresadas);
 
 printf("\nEl promedio de las notas es: %.2f",promedio);
